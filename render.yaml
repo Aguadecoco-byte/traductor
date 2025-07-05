@@ -11,9 +11,8 @@ services:
     autoDeploy: true
     rootDir: backend
 
-  - type: static
+  - type: static_site
     name: traductor-frontend
-    env: static
     buildCommand: ''
     staticPublishPath: frontend
     plan: free

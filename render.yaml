@@ -8,6 +8,8 @@ services:
     envVars:
       - key: PORT
         value: 10000
+      - key: GROQ_API_KEY
+        sync: false
     autoDeploy: true
     rootDir: backend
 

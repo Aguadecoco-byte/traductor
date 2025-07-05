@@ -15,6 +15,5 @@ services:
     name: traductor-frontend
     runtime: static
     staticPublishPath: frontend
-    plan: free
     autoDeploy: true
     rootDir: frontend
